@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2030 Vision</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="Images/Logo.png" class="Logo">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">About 2030 Vision</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <div class="container">
+        <div class="Home">
+            <div>
+                <h1>2030 Vision</h1>
+                <p>Under the leadership of the Custodian of the Two Holy Mosques, Vision 2030 was launched, a roadmap drawn up by His Royal Highness the Crown Prince, to harness the strengths God bestowed upon us – our strategic position, investment power and place at the center of Arab and Islamic worlds.</p>
+                <div>
+                    <ul>
+                        <a href="#pr" style="text-decoration: none;">
+                            <li>
+                                Explore
+                                <span></span><span></span><span></span><span></span>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pr" class="projects">
+        <h1>2030 Vision Projects</h1>
+        <div class="sliderContainer">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="raido-btn" id="radio1">
+                    <input type="radio" name="raido-btn" id="radio2">
+                    <input type="radio" name="raido-btn" id="radio3">
+                    <input type="radio" name="raido-btn" id="radio4">
+
+                    <div class="slide first">
+                        <img src="Images/1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/4.png" alt="">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
