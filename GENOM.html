@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENOM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="Images/Logo.png" class="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="TheLine.html">The Line</a></li>
+                <li><a href="Neom.html">NEOM</a></li>
+                <li><a href="Saudimade.html">SAUDI MADE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script type="text/javascript">
+        var header = document.querySelector("header");
+        header.style.cssText += "background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('Images/3.png'); ";
+        window.addEventListener("scroll", function(){
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <section style="background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('Images/3.png'); background-size: cover;" class="container">
+        <div class="Home">
+            <div>
+                <h1>Saudi GENOM Program</h1>
+                <p>The Saudi Genome Program, inaugurated by His Royal Highness, Crown Prince Mohammed bin Salman bin Abdulaziz, is one of the frontier national projects under Vision 2030, aiming to reduce the incidence of genetic diseases using advanced genomic technologies.The Saudi Genome Program, inaugurated by His Royal Highness, Crown Prince Mohammed bin Salman bin Abdulaziz, is one of the frontier national projects under Vision 2030, aiming to reduce the incidence of genetic diseases using advanced genomic technologies.</p>
+                <div>
+                    <ul>
+                        <a href="#Theline" style="text-decoration: none;">
+                            <li>
+                                LEARN MORE
+                                <span></span><span></span><span></span><span></span>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <div class="tl" id="Theline">
+        <h2 style="font-size: 42px; padding: 10px 4%;">What is Saudi GENOM Program</h2>
+        <p>The Saudi Genome Program, inaugurated by His Royal Highness, Prince Mohammed bin Salman bin Abdulaziz, Crown Prince, Prime Minister, and Chairman of the Council of Economic and Development Affairs, is one of the frontier national projects under Vision 2030, aiming to reduce the incidence of genetic diseases using advanced genomic technologies.
+
+            The Saudi Genome Program (SGP) will create a database to document the first genetic map of the Saudi society, develop personalized medicine practice, reduce the cost of healthcare, and improve quality of life.
+            
+             
+            
+            The program supports healthcare provision through better diagnosis, therapy, and prevention. Major outcomes will include the implementation of premarital and newborn screening, cancer screening and targeted therapy, and better management of other multifactorial genetic diseases such as diabetes and loss of vision/hearing.
+            
+             
+            
+            Using advanced genomic technologies for diagnosis and treatment and building capabilities in the field of genomics and big data analytics, will allow the Kingdom to gain a global position in the field of genomics research, capitalize on big data and artificial intelligence tools and mainstream personalized medicine.</p>
+        <p>The 10-year project is set to reduce hereditary and genetic diseases and develop healthcare in a way that will positively affect the public health and national economy. It aims to use next-generation genome coding techniques to collect and analyze 100,000 samples from various regions of the Kingdom in order to build a hereditary and genetic database and discover the hereditary and genetic variants of Saudis while healthy and ill. The latter will be used to develop diagnostic and preventive tools that would improve public health and enhance patients’ use of medicines based on their genetic information. </p>
+        <p>So far, SHGP has been able to examine more than 50,000 samples and document 7,500 variants that cause the hereditary and genetic diseases that have appeared in the Saudi society, including 3,000 variants that cause more than 1,230 rare genetic diseases in the Kingdom. It does so by transferring and localizing genetic testing methods by using the latest technologies to develop healthcare and prevent genetic diseases. It has also developed several tests based on genetic information, which resulted in the creation of 25 genetic packages used in genetic analysis, which would fortify the creation of the database.
+        </p>
+        <p>SHGP contributes to the early detection or pre-infection of some chronic diseases such as colon and breast cancer as well as heart and neurological diseases, and seeks to reduce the prevalence of hereditary and genetic diseases such as cognitive developmental delay, loss of sight or hearing, diabetes, and autism among others. After that, the program develops the appropriate treatment plan to reduce the occurrence of these diseases in the future.
+        </p>
+    </div>
+
+    <h2 style="font-size: 48px; padding: 2% 4%;">Video</h1>
+    <div style="display: flex; align-items: center; justify-content: center;">
+        
+        <iframe width="960" height="640" src="https://www.youtube.com/embed/XncDK5tmxjc" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    </div>
+
+    <div id="pr" class="projects">
+        <h1>2030 Vision Projects</h1>
+        <div class="sliderContainer">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="raido-btn" id="radio1">
+                    <input type="radio" name="raido-btn" id="radio2">
+                    <input type="radio" name="raido-btn" id="radio3">
+                    <input type="radio" name="raido-btn" id="radio4">
+
+                    <div class="slide first">
+                        <img src="Images/1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/4.png" alt="">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
