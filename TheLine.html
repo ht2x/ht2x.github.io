@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheLine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="Images/Logo.png" class="Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="TheLine.html">The Line</a></li>
+                <li><a href="Neom.html">NEOM</a></li>
+                <li><a href="GENOM.html">GENOM</a></li>
+                <li><a href="Saudimade.html">SAUDI MADE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script type="text/javascript">
+        var header = document.querySelector("header");
+        header.style.cssText += "background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('Images/1.jpg');";
+        window.addEventListener("scroll", function(){
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <section style="background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('Images/1.jpg');" class="container">
+        <div class="Home">
+            <div>
+                <h1>The Line</h1>
+                <p>THE LINE is a civilizational revolution that puts humans first, providing an unprecedented urban living experience while preserving the surrounding nature. It redefines the concept of urban development and what cities of the future should look like.</p>
+                <div>
+                    <ul>
+                        <a href="#Theline" style="text-decoration: none;">
+                            <li>
+                                LEARN MORE
+                                <span></span><span></span><span></span><span></span>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <div class="tl" id="Theline">
+        <h2 style="font-size: 42px; padding: 10px 4%;">What is The Line?</h2>
+        <p>No roads, cars or emissions, it will run on 100% renewable energy and 95% of land will be preserved for nature. People's health and wellbeing will be prioritized over transportation and infrastructure, unlike traditional cities. Only 200 meters wide, but 170 kilometers long and 500 meters above sea level.
+
+            THE LINE will eventually accommodate 9 million people and will be built on a footprint of just 34 square kilometers. This will mean a reduced infrastructure footprint, creating never-before-seen efficiencies in city functions. The ideal climate all-year-round will ensure that residents can enjoy the surrounding nature. Residents will also have access to all facilities within a five-minute walk, in addition to high-speed rail – with an end-to-end transit of 20 minutes.</p>
+        <p>Our progressive design offers immediate and uninterrupted access to nature within a two-minute walk through its diverse open spaces, suspended on multiple levels. Equitable access to pristine views of the surrounding natural landscape, mountains and sky – for all – avoiding urban sprawl thanks to a reduced infrastructure footprint.</p>
+        <p>Everything will be accessible within a five-minute walk and an efficient public transport network will offer an end-to-end journey in just 20 minutes. Automated services will be powered by artificial intelligence. Amenities in close proximity will mean residents see family and friends often through spontaneous encounters.
+        </p>
+        <p>The city will be zero-carbon, through the elimination of carbon-intensive infrastructure like cars and roads. It will operate on 100% renewable energy, including the operations of its industries. The integration of nature and open spaces throughout will serve an important role in purifying air quality.</p>
+    </div>
+
+    <h2 style="font-size: 48px; padding: 2% 4%;">Video</h1>
+    <div style="display: flex; align-items: center; justify-content: center;">
+        
+        <iframe width="960" height="640" src="https://www.youtube.com/embed/0kz5vEqdaSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    </div>
+
+    <div id="pr" class="projects">
+        <h1>2030 Vision Projects</h1>
+        <div class="sliderContainer">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="raido-btn" id="radio1">
+                    <input type="radio" name="raido-btn" id="radio2">
+                    <input type="radio" name="raido-btn" id="radio3">
+                    <input type="radio" name="raido-btn" id="radio4">
+
+                    <div class="slide first">
+                        <img src="Images/1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/3.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Images/4.png" alt="">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
